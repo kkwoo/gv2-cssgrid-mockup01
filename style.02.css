@@ -1,0 +1,72 @@
+#app {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.header {
+  grid-row: 1;
+}
+
+.habitLabel {
+  grid-row: 2;
+}
+
+.habitList {
+  grid-row: 3;
+}
+
+.habitText {
+  grid-row: 3;
+  grid-column: 2 / span 2;
+}
+
+.beginDTLabel {
+  grid-row: 4;
+}
+
+.beginYYYYMMDD {
+  grid-row: 5;
+}
+
+.beginHHMMSS {
+  grid-row: 6;
+}
+
+.beginTSButton {
+  /* grid-column: 3 / span 1; */ /* for later */
+  grid-column: 2 / span 2;
+  grid-row: 5 / span 2;
+}
+
+.endDTLabel {
+  grid-row: 7
+}
+
+.endYYYYMMDD {
+  grid-row: 8
+}
+
+.endHHMMSS {
+  grid-row: 9
+}
+
+.endTSPlus0 {
+  grid-column: 2 / span 1;
+  grid-row: 8 / span 2;
+}
+
+.endTSPlus15 {
+  grid-column: 3 / span 1;
+  grid-row: 8 / span 1;
+}
+
+.endTSPlus60 {
+  grid-column: 3 / span 1;
+  grid-row: 9 / span 1;
+}
+
+.saveHabit {
+  grid-row: 10;
+  grid-column: span 3
+}
